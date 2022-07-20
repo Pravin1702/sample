@@ -1,0 +1,24 @@
+Microsoft Windows [Version 10.0.19043.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+F:\gitsample>git init
+Initialized empty Git repository in F:/gitsample/.git/
+
+F:\gitsample>git add -A
+
+F:\gitsample>git commit -m "hi"
+[master (root-commit) 6bf969d] hi
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hi.txt
+
+F:\gitsample>git remote add origin https://github.com/Pravin1702/sample.git
+
+F:\gitsample>git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 206 bytes | 206.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Pravin1702/sample.git
+ * [new branch]      master -> master
+
+F:\gitsample>
